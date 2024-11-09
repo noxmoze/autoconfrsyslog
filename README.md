@@ -8,10 +8,13 @@ Ce script permet de configurer automatiquement un client rsyslog pour envoyer le
 
    ```bash
    chmod +x start.sh
+   ```
+   
+Exécuter le script :
 
-    Exécuter le script :
-
-./start.sh [IP_DU_SERVEUR]
+   ```bash
+   ./start.sh [IP_DU_SERVEUR]
+```
 
 Vérifier l'envoi des logs :
 
@@ -29,7 +32,6 @@ Contenu du script
 
 Le script effectue les actions suivantes :
 
-    Met à jour la liste des paquets.
-    Installe rsyslog.
-    Ajoute la configuration nécessaire pour envoyer les logs au serveur syslog spécifié.
-    Redémarre le service rsyslog.
+- Installe rsyslog.
+- Ajoute la configuration nécessaire pour envoyer les logs au serveur syslog spécifié.
+- Redémarre le service rsyslog.
